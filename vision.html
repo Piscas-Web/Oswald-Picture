@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="type.css">
+</head>
+<body>
+
+      <!-- Header -->
+    <header>
+        <div class="logo">Oswald <span>Picture</span></div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="/index.html" class="nav-link active" data-section="accueil">Accueil</a></li>
+                <li><a href="/apropos.html" class="nav-link" data-section="apropos">À propos</a></li>
+                <li><a href="/vision.html" class="nav-link" data-section="vision">Vision</a></li>
+                <li><a href="/galerie.html" class="nav-link" data-section="galerie">Galerie</a></li>
+                <li><a href="/contact.html" class="nav-link" data-section="contact">Contact</a></li>
+                <li><a href="/services.html" class="nav-link" data-section="services">Services</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+      <!-- Vision -->
+    <section id="vision" class="reveal">
+        <h2 class="section-title">Vision et Mission</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 3rem; max-width: 1200px; margin: 0 auto;">
+            <div class="service-card reveal" style="border-top: 5px solid var(--primary); padding: 3rem;">
+                <h3 style="font-size: 2.2rem;">Vision</h3>
+                <p style="margin-top: 1.5rem; font-size: 1.1rem;">Devenir une référence en matière de photographie et de production visuelle dans notre région et au-delà, en innovant constamment, en formant des talents locaux et en offrant des services professionnels accessibles et inspirants. </p>
+            </div>
+            <div class="service-card reveal" style="border-top: 5px solid var(--text-dim); padding: 3rem;">
+                <h3 style="font-size: 2.2rem;">Mission</h3>
+                <p style="margin-top: 1.5rem; font-size: 1.1rem;">Promouvoir un <strong>service de haute qualité</strong> accessible, alliant technologie de pointe, créativité et proximité avec notre communauté locale.</p>
+            </div>
+        </div>
+        <div class="reveal" style="margin-top: 5rem; background: var(--bg-sec); padding: 4rem; border-radius: 20px; text-align: center;">
+            <h3 style="font-size: 2rem; margin-bottom: 2rem;">Nos Valeurs Fondamentales</h3>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+                <div><i class="fas fa-heart fa-2x" style="color: var(--primary); display: block; margin-bottom: 0.5rem;"></i> Passion</div>
+                <div><i class="fas fa-star fa-2x" style="color: var(--primary); display: block; margin-bottom: 0.5rem;"></i> Excellence</div>
+                <div><i class="fas fa-users fa-2x" style="color: var(--primary); display: block; margin-bottom: 0.5rem;"></i> Client</div>
+                <div><i class="fas fa-rocket fa-2x" style="color: var(--primary); display: block; margin-bottom: 0.5rem;"></i> Innovation</div>
+            </div>
+        </div>
+    </section>
+      <!-- Long Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Oswald Picture</h4>
+                <p>Photographie et traitement vidéo premium à Mangina. Capturons vos rêves en images inoubliables.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <p><a href="#services">Photographie</a></p>
+                <p><a href="#services">Vidéo & Montage</a></p>
+                <p><a href="#services">Retouche Photo</a></p>
+                <p><a href="#services">Production Événementielle</a></p>
+                <p><a href="#services">Portraits Studio</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <p><a href="#accueil">Accueil</a></p>
+                <p><a href="#apropos">À propos</a></p>
+                <p><a href="#vision">Vision & Mission</a></p>
+                <p><a href="#galerie">Galerie</a></p>
+                <p><a href="#contact">Contact</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Contactez-nous</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Mangina, Nord-Kivu, RDC</p>
+                <p><i class="fas fa-phone"></i> +243 99X XXX XXX</p>
+                <p><i class="fas fa-envelope"></i> info@oswaldpicture.com</p>
+                <p><i class="fab fa-whatsapp"></i> WhatsApp Business</p>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Recevez nos dernières réalisations et offres exclusives.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email" required>
+                    <button type="submit">S'inscrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Oswald Picture. Tous droits réservés. | Développé avec <i class="fas fa-heart" style="color: var(--primary);"></i> pour Mangina.</p>
+            <p>Politique de Confidentialité | Conditions d'Utilisation | Mentions Légales</p>
+        </div>
+    </footer>
+
+   <script src="index.js"></script>
+    
+</body>
+</html>
