@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root {
     --primary: #D4AF37;
     --bg: #121212;
@@ -12,10 +12,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
